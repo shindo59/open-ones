@@ -1,0 +1,9 @@
+#summary Rapid application development Model-View-Controller framework for web application.
+
+=Introduction=
+RadMVC is an open source web application framework for developing Java Web Application. It uses and extends the Java Servlet API and Portlet API to encourage developers to adopt a model-view-controller architecture.
+
+
+=The basic idea=
+
+RadMVC provides a natural style in programming. An web application includes the external interfaces through screens or web pages; and their built-in behaviors.
