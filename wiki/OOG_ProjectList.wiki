@@ -1,0 +1,2 @@
+#summary List of candidate projects of Open-Ones Group
+Refer: http://code.google.com/p/open-ones/source/browse/#svn%2Ftrunk%2FProjectList
