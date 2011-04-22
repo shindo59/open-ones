@@ -1,0 +1,41 @@
+#summary Develop Google App rapidly.
+#labels Google,App,OGate,Open-Ones
+
+= Introduction =
+
+This text help you run a Google App with eclipse.
+
+= Details =
+*A. Prepare the eclipse and Google App Engine SDK*
+I) Download below 5 files. Then combine and un-compress into a folder (ex: D:\jPackages)
+
+1) http://www.ziddu.com/downloadlink/14607954/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.001
+
+2) http://www.ziddu.com/downloadlink/14609830/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.002
+3) http://www.ziddu.com/downloadlink/14609590/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.003
+4) http://www.ziddu.com/downloadlink/14609578/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.004
+5) http://www.ziddu.com/downloadlink/14609427/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.005
+
+II) Download Google App Engine SDK for Java version at:
+http://googleappengine.googlecode.com/files/appengine-java-sdk-1.4.3.zip
+Then, unzip it into D:\jPackages
+
+III) Start eclipse by execute "D:\jPackages\eclipse-jee-helios-SR2-win32-OpenOnes-0.5\eclipse\eclipse.exe".
+- Open Preferences by going to Window > Preferences
+- Select node "Google > App Engine", click Add button. Then browse to folder "D:\jPackages\appengine-java-sdk-1.4.3". Click OK twice.
+
+*B. Run the OGate project
+
+I) Import the OGate project into Eclipse
+Step 1: Going to menu File > Import. The dialog Import is displayed.
+Step 2: Select node General > Existing Projects into Workspace. Click on Next, Browse to folder of OGate Source.
+
+II)Run the OGate project
+Right click on OGate project in the Project Explorer of the eclipse. Select Run As > Web Application.
+
+Follow the result of compilation in window "Console".
+Then use browser to open URL: htt://localhost:8888/
+
+In case the eclipse could not compile the source code of OGate. Please check the Java Build Path of the project.
+Tips:
++ Configure JDK is the default JVM instead of JRE.
