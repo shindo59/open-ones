@@ -7,13 +7,17 @@ This text help you run a Google App with eclipse.
 
 = Details =
 *A. Prepare the eclipse and Google App Engine SDK*
+
 I) Download below 5 files. Then combine and un-compress into a folder (ex: D:\jPackages)
 
 1) http://www.ziddu.com/downloadlink/14607954/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.001
 
 2) http://www.ziddu.com/downloadlink/14609830/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.002
+
 3) http://www.ziddu.com/downloadlink/14609590/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.003
+
 4) http://www.ziddu.com/downloadlink/14609578/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.004
+
 5) http://www.ziddu.com/downloadlink/14609427/eclipse-jee-helios-SR2-win32-OpenOnes-0.5.tar.gz.005
 
 II) Download Google App Engine SDK for Java version at:
@@ -37,5 +41,6 @@ Follow the result of compilation in window "Console".
 Then use browser to open URL: htt://localhost:8888/
 
 In case the eclipse could not compile the source code of OGate. Please check the Java Build Path of the project.
+
 Tips:
 + Configure JDK is the default JVM instead of JRE.
