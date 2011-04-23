@@ -12,12 +12,19 @@ This page shares experiences, tips for developers want to use Fedora/Rehat Linux
 1) Open terminal with root permission
 
 2) Create a script to set system environment for JDK by commands: touch and vi 
+
 touch /etc/profile.d/jdk.sh
+
 vi /etc/profile.d/jdk.sh
 
+
 Input the content for jdk.sh:
+
 export JAVA_HOME=/opt/jdk1.6.0_24
+
 export PATH=$JAVA_HOME:$JAVA_HOME/bin
 
-3) Set executable permission for file jdk.sh by command chmoid
+
+3) Set executable permission for file jdk.sh by command chmod
+
 chmod +x /etc/profile.d/jdk.sh
