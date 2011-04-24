@@ -7,3 +7,5 @@ RadMVC is an open source web application framework for developing Java Web Appli
 =The basic idea=
 
 RadMVC provides a natural style in programming. An web application includes the external interfaces through screens or web pages; and their built-in behaviors.
+
+=Tutorial=
