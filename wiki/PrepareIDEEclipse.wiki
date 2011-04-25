@@ -1,0 +1,26 @@
+#summary Prepare IDE Eclipse to develop Web Application
+
+= Introduction =
+
+This text helps you prepare an IDE Eclipse to develop Web Application, Google App and Android
+
+
+= Details =
+=== 1. Download and install JDK 1.6 ===
+=== 2. Download customized Eclipse JEE ===
+Link:
+1) http://www.ziddu.com/download/14710081/eclipse-jee-helios-SR2-win32-OpenOnes-0.6.tar.gz.001.html
+
+
+2) http://www.ziddu.com/download/14710119/eclipse-jee-helios-SR2-win32-OpenOnes-0.6.tar.gz.002.html
+
+3) http://www.google.com/url?sa=D&q=http://www.ziddu.com/download/14710259/eclipse-jee-helios-SR2-win32-OpenOnes-0.6.tar.gz.003.html
+
+Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.6. This folder is called $ECLIPSE_HOME)
+
+You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
+
+=== 3. Configure JDK for eclipse ===
+Default, the eclipse uses JRE. Now, you re-configure the eclipse to use JDK.
+
+<a href="http://s1083.photobucket.com/albums/j387/thachln/?action=view&amp;current=JDK-Eclipse.png" target="_blank"><img src="http://i1083.photobucket.com/albums/j387/thachln/JDK-Eclipse.png" border="0" alt="Configure Eclipse using JDK">
