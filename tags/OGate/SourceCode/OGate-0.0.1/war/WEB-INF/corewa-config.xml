@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corewa>
+  <layout id="Layout">
+    <part id="layout.do" screen="Layout"/>
+    <part id="header.do" screen="Header"/>
+    <part id="left.do" screen="Left"/>
+    <part id="main.do" screen="Main"/>
+    <part id="right.do" screen="Right"/>
+    <part id="footer.do" screen="Footer"/>
+  </layout>
+  <home-screen>Layout</home-screen>
+  
+  <screen id="Layout" control="openones.gate.control.LayoutControl" input="/WEB-INF/pages/layout.jsp">
+  </screen>
+  
+  <screen id="Header" control="openones.gate.control.HeaderControl" input="/WEB-INF/pages/layout.jsp" >
+    <event id="login" procId="googleLogin"></event>
+    <event id="logout" procId="googleLogout"></event>
+  </screen>
+
+  <screen id="Navigation" control="openones.gate.control.NavigationControl" input="/WEB-INF/pages/layout.jsp" >
+    <event id="clickService" procId="gotoService"></event>
+    <event id="clickIntroduction" procId="gotoIntroduction"></event>
+  </screen>  
+</corewa>
