@@ -8,7 +8,8 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 = Details =
 === 1. Download and install JDK 1.6 ===
 === 2. Download customized Eclipse JEE ===
-Link:
+Links:
+
 1) http://www.ziddu.com/downloadlink/15191744/eclipse-jee-helios-SR2-win32-OpenOnes-0.7.zip.001.html
 
 
