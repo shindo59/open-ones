@@ -10,16 +10,17 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 === 2. Download customized Eclipse JEE ===
 Links:
 
-1) http://www.ziddu.com/downloadlink/15191744/eclipse-jee-helios-SR2-win32-OpenOnes-0.7.zip.001.html
+1) http://www.mediafire.com/file/zta0lvo4toudot4/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.001
 
 
-2) http://www.ziddu.com/downloadlink/15191760/eclipse-jee-helios-SR2-win32-OpenOnes-0.7.zip.002.html
+2) http://www.mediafire.com/file/6n9rrczcuedvca0/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.002
 
-3) http://www.ziddu.com/download/15192068/eclipse-jee-helios-SR2-win32-OpenOnes-0.7.zip.003.html
 
-4) http://www.ziddu.com/download/15191986/eclipse-jee-helios-SR2-win32-OpenOnes-0.7.zip.004.html
+3) http://www.mediafire.com/file/915b728bby7vlub/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.003
 
-Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.7. This folder is called $ECLIPSE_HOME)
+4) http://www.mediafire.com/file/ngdol8ohm2t7bnz/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.004
+
+Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.8. This folder is called $ECLIPSE_HOME)
 
 You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
 
