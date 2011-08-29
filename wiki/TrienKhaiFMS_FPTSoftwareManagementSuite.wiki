@@ -18,3 +18,5 @@ https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4N
 (Phiên bản gốc FMS 1.0 có 2 scripts trong thư mục sql: FMS_All.sql, FMS_Fix.sql. Việc thực thi toàn bộ nội dung 2 scripts này tương đối vất vả và mất thời gian)
 
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
+
+Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
