@@ -1,0 +1,11 @@
+#summary Hướng dẫn cài đặt và dùng thử Oracle 10g Express.
+
+= Giới thiệu =
+
+Oracle 10g Express là phiên bản miễn phí. Rất thích hợp cho việc đào tạo, triển khai các dự án nhỏ.
+Tài liệu này giúp các bạn cài đặt và thực hiện một số lệnh cơ bản của Oracle.
+Phiên bản Oracle được minh họa: Oracle 10g Express 10.2.0. Tải tại http://www.oracle.com/technetwork/database/express-edition/downloads/index.html
+
+= Chi tiết =
+
+Sau khi tải file .exe về, thực thi để cài đặt theo hướng dẫn.
