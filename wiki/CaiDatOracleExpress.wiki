@@ -9,3 +9,17 @@ Phiên bản Oracle được minh họa: Oracle 10g Express 10.2.0. Tải tại 
 = Chi tiết =
 
 Sau khi tải file .exe về, thực thi để cài đặt theo hướng dẫn.
+
+==Đổi port mặc định của CSDL XDB 8080 thanh 8080==
+Khởi động chương trình SQL Command line của Oracle. Kết nối vào database bằng lệnh
+connect username/password;
+
+Sau đó thực thi 2 đoạn lệnh dưới đây bằng cách sao chép và dán vào cửa sổ lệnh sqlplus
+
+begin
+ dbms_xdb.sethttpport('6060');
+end;
+/
+select dbms_xdb.gethttpport as "HTTP-Port", dbms_xdb.getftpport as "FTP-Port" from dual;
+/
+/
