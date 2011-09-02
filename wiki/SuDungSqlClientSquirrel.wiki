@@ -1,12 +1,18 @@
 #summary Hướng dẫn tài đặt và sử dụng SQL Squirrel
 
 = Introduction =
-Tải và cài đặt chương trình tại http://www.squirrelsql.org. Tài liệu này hướng dẫn làm quen SQL Squirrel.
+Tải và cài đặt chương trình tại http://www.squirrelsql.org. Phần chi tiết bên dưới giúp bạn làm quen SQL Squirrel.
+
+ * Cấu hình JDBC
+ * Tạo alias để kết nối vào CSDL
 
 = Chi tiết =
+Sau khi khởi động SQuirrel SQL Client, bạn cần cấu hình JDBC cho loại CSDL. Ví dụ bạn đã cài đặt Oracle 10g Express (xem hướng dẫn)
 
 
+C:\oraclexe\app\oracle\product\10.2.0\server\jdbc\lib\ojdbc14.jar
 
 
+http://i1083.photobucket.com/albums/j387/thachln/Open-Ones/squirrel_conf.png
 
-
+http://i1083.photobucket.com/albums/j387/thachln/Open-Ones/squirrel_add_jdbc_ora.png
