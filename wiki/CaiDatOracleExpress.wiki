@@ -9,19 +9,26 @@ Phiên bản Oracle được minh họa: Oracle 10g Express 10.2.0. Tải tại 
 
 = Chi tiết =
 
-Sau khi tải file .exe về, thực thi để cài đặt theo hướng dẫn.
+Sau khi tải file OracleXEUniv.exe về, thực thi để cài đặt theo hướng dẫn.
 
-==Đổi port mặc định của CSDL XDB 8080 thanh 8080==
+==Đổi port mặc định của CSDL XDB 8080 thành 6060==
 Khởi động chương trình SQL Command line của Oracle. Kết nối vào database bằng lệnh
-connect sys/<password> as sysdba;
 
-<password> là mật khẩu của system của bạn khi cài Oracle Express
+*connect sys/$password as sysdba;*
+
+$password là mật khẩu của system của bạn khi cài Oracle Express
 
 Sau đó thực thi 2 đoạn lệnh dưới đây bằng cách sao chép và dán vào cửa sổ lệnh sqlplus
 
 begin
  dbms_xdb.sethttpport('6060');
 end;
+
 /
+
 select dbms_xdb.gethttpport as "HTTP-Port", dbms_xdb.getftpport as "FTP-Port" from dual;
+
 /
+
+==Cách dán (paste) lệnh vào cửa sổ lệnh sqlplus==
+http://i1083.photobucket.com/albums/j387/thachln/Open-Ones/oracle_cp.png
