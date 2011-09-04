@@ -31,6 +31,17 @@ Nếu máy bạn chưa cài Java thì hãy tham khảo bài 1 (Exercise 1) trong
 Tải bản jBoss 5.1.0 tại http://www.jboss.org/jbossas/downloads
 
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
+Ghi chú: Bạn nên đổi tên file DMS.war thành chữ thường dms.war.
+
+Để gởi động và dùng jBoss, bạn nên tạo 2 batch script trong thư mục
+
+C:\jPackages\jboss-5.1.0.GA
+---Script để khởi động jBoss---
+cd bin
+run.bat -b 0.0.0.0
+
+---Script để tắt jBoss---
+
 
 cd bin
 run.bat -b 0.0.0.0
