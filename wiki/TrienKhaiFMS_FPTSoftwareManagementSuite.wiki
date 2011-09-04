@@ -8,6 +8,11 @@ Tài liệu này hướng dẫn bạn triển khai gói phần mềm quản tr�
 
 Trong quá trình cài đặt để dùng thử công cụ FMS này, nhóm Open-Ones phát hiện phần hướng dẫn triển khai cơ sở dữ liệu (Oracle 9i) chưa được chi tiết, bộ script để tạo CSDL chưa được hoàn chỉnh. Vì vậy nhóm Open-Ones đã cập nhật và chia sẻ dưới đây.
 
+Nội dụng:
+ * Cài đặt Oracle 10g Express - bản miễn phí
+ * Sử dụng SQL Squirrel Client để thao tác CSDL Oracle
+ * Triển khai jBoss và bộ công cụ FMS
+
 = Chi tiết =
 
 Để cài đặt CSDL cho FMS, bạn cần chuẩn bị sẵn một CSDL Oracle, một account có quyền DBA (thật ra chỉ cần một số quyền. Tuy nhiên để đơn giản thì cứ tạo một tài khoản có quyền DBA).
