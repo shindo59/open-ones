@@ -10,7 +10,7 @@ Trong quá trình cài đặt để dùng thử công cụ FMS này, nhóm Open-
 
 = Chi tiết =
 
-Để cài đặt CSDL cho FMS, bạn cần chuẩn bị sẵn một CSDL Oracle, một account có quyền DBA (thật ra chỉ cần một số quyền. Tuy nhiên để đơn giản thì cứ tạo một tài khoản có quyền DBA cho đơn giản).
+Để cài đặt CSDL cho FMS, bạn cần chuẩn bị sẵn một CSDL Oracle, một account có quyền DBA (thật ra chỉ cần một số quyền. Tuy nhiên để đơn giản thì cứ tạo một tài khoản có quyền DBA).
 
 Sau đó bạn lấy bộ script đã được chỉnh sửa tại:
 https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4NWM3YjBhMGYtYzQ4OS00N2YyLThkMjItYzEyOTdmOGY2ZjNl&hl=en_US
