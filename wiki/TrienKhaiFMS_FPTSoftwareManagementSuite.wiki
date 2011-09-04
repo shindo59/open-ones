@@ -1,5 +1,5 @@
 #summary Hướng dẫn cài đặt bộ công cụ quản trị dự án phần mềm FMS.
-#labels FMS,iPMS,ProjectManagementSuite,FMSFPTSoftware,CMMitool,ProjectManagement
+#labels FMS,iPMS,ProjectManagementSuite,FMSFPTSoftware,CMMitool,ProjectManagement,Quảntrịphầnmềm
 
 = Giới thiệu =
 Tài liệu này hướng dẫn bạn triển khai gói phần mềm quản trị dự án FMS - FPT Software Management Suite phiên bản 1.0 mà FPT đã cung cấp cho cộng đồng CNTT Việt Nam trong năm 2009 với giấy phép mã nguồn mở BSD.
