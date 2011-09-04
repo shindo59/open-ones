@@ -26,6 +26,9 @@ Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết c
 *Xem tài liệu hướng dẫn tài Oracle 10g Express* tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
 
 ===Bước 2) Triển khai jBoss và bộ công cụ FMS===
+Nếu máy bạn chưa cài Java thì hãy tham khảo bài 1 (Exercise 1) trong tài liệu tại [http://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4ZDMzY2NhM2MtMDBlMy00OWE1LWE4MDUtNGNkMWJlYzczMjAy&hl=en_US đây].
+
+Tải bản jBoss 5.1.0 tại http://www.jboss.org/jbossas/downloads
 
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
 
