@@ -9,7 +9,7 @@ Tài liệu này hướng dẫn bạn triển khai gói phần mềm quản tr�
 Trong quá trình cài đặt để dùng thử công cụ FMS này, nhóm Open-Ones phát hiện phần hướng dẫn triển khai cơ sở dữ liệu (Oracle 9i) chưa được chi tiết, bộ script để tạo CSDL chưa được hoàn chỉnh. Vì vậy nhóm Open-Ones đã cập nhật và chia sẻ dưới đây.
 
 Nội dụng:
- * Cài đặt Oracle 10g Express - bản miễn phí
+ * Cài đặt Oracle 10g Express
  * Triển khai jBoss và bộ công cụ FMS
 
 = Chi tiết =
@@ -23,29 +23,28 @@ Sau đó bạn lấy bộ script đã được chỉnh sửa tại: http://open-
 
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
 
+Đối với các dự án nhỏ, đặc biệt các dự án đào tạo (Training) thì bản Oracle Express là phù hợp (Xem các giới hạn của phiên bản Express tại http://download.oracle.com/docs/cd/B25329_01/doc/install.102/b25143/toc.htm#BABIECJA).
+
 *Xem tài liệu hướng dẫn tài Oracle 10g Express* tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
 
 ===Bước 2) Triển khai jBoss và bộ công cụ FMS===
-Nếu máy bạn chưa cài Java thì hãy tham khảo bài 1 (Exercise 1) trong tài liệu tại [http://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4ZDMzY2NhM2MtMDBlMy00OWE1LWE4MDUtNGNkMWJlYzczMjAy&hl=en_US đây].
+Nếu máy bạn chưa cài Java thì hãy tham khảo bài 1 (Exercise 1) trong tài liệu [http://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4ZDMzY2NhM2MtMDBlMy00OWE1LWE4MDUtNGNkMWJlYzczMjAy&hl=en_US Hands-on Lab: Install JDK and Tomcat].
 
 Tải bản jBoss 5.1.0 tại http://www.jboss.org/jbossas/downloads
 
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
 Ghi chú: Bạn nên đổi tên file DMS.war thành chữ thường dms.war.
 
-Để gởi động và dùng jBoss, bạn nên tạo 2 batch script trong thư mục
-
-C:\jPackages\jboss-5.1.0.GA
+Để gởi động và dùng jBoss, bạn nên tạo 2 batch script trong thư mục C:\jPackages\jboss-5.1.0.GA
 ---Script để khởi động jBoss---
 cd bin
 run.bat -b 0.0.0.0
 
 ---Script để tắt jBoss---
-
-
 cd bin
-run.bat -b 0.0.0.0
+shutdown.bat -S
 
 ===Tham khảo===
-- Tài liệu hướng dẫn cài đặt "Install.pdf" có trong bộ FMS
-- 
+Bạn nào mong muốn dùng thử ngay tool FMS thì có thể liên hệ nhóm để nhận CD chứa máy ảo VMWare đã cài đặt sẵn Oracle 10g Express, jBoss.
+
+Liên hệ: openonesadm@gmail.com
