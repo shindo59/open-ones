@@ -10,11 +10,10 @@ Trong quá trình cài đặt để dùng thử công cụ FMS này, nhóm Open-
 
 Nội dụng:
  * Cài đặt Oracle 10g Express - bản miễn phí
- * Sử dụng SQL Squirrel Client để thao tác CSDL Oracle
  * Triển khai jBoss và bộ công cụ FMS
 
 = Chi tiết =
-Bước 1) Cài đặt Oracle 10g Express
+===Bước 1) Cài đặt Oracle 10g Express===
 
 Để cài đặt CSDL cho FMS, bạn cần chuẩn bị sẵn một CSDL Oracle, một account có quyền DBA (thật ra chỉ cần một số quyền. Tuy nhiên để đơn giản thì cứ tạo một tài khoản có quyền DBA).
 
@@ -24,7 +23,10 @@ Sau đó bạn lấy bộ script đã được chỉnh sửa tại: http://open-
 
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
 
-Xem tài liệu hướng dẫn tài Oracle 10gExpress tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
+*Xem tài liệu hướng dẫn tài Oracle 10g Express* tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
+
+===Bước 2) Triển khai jBoss và bộ công cụ FMS===
+
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
 
 cd bin
