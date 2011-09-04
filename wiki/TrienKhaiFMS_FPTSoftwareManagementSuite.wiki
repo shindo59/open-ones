@@ -25,3 +25,10 @@ https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4N
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
 
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
+
+cd bin
+run.bat -b 0.0.0.0
+
+===Tham khảo===
+- Tài liệu hướng dẫn cài đặt "Install.pdf" có trong bộ FMS
+- 
