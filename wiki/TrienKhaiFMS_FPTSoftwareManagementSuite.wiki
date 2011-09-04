@@ -14,6 +14,7 @@ Nội dụng:
  * Triển khai jBoss và bộ công cụ FMS
 
 = Chi tiết =
+Bước 1) Cài đặt Oracle 10g Express
 
 Để cài đặt CSDL cho FMS, bạn cần chuẩn bị sẵn một CSDL Oracle, một account có quyền DBA (thật ra chỉ cần một số quyền. Tuy nhiên để đơn giản thì cứ tạo một tài khoản có quyền DBA).
 
@@ -24,6 +25,7 @@ https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4N
 
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
 
+Xem tài liệu hướng dẫn tài Oracle 10gExpress tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
 Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. Các bạn có thể xem và làm theo.
 
 cd bin
