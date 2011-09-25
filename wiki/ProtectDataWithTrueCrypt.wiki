@@ -10,5 +10,6 @@ Tôi thường làm việc trên các hệ điều hành khác nhau: Windows, Li
 Đã có nhiều bài viết hay về TrueCrypt như:
 * http://zxc232.wordpress.com/2010/03/16/ma-hoa-b%E1%BA%A3o-v%E1%BB%87-d%E1%BB%AF-li%E1%BB%87u-b%E1%BA%B1ng-truecrypt/
 * http://blogphanmem.com/download-truecrypt-bao-ve-du-lieu-o-flash-mot-cach-toan-dien/
+* http://www.spacesoft.vn/Ph%E1%BA%A7nm%E1%BB%81m/TrueCrypt/tabid/75/language/en-US/Default.aspx
 
-Bài này chỉ tóm tắt và chi chú các kinh nghiệp bổ dung trong quá trình sử dụng TrueCrypt trên Windows và Linux (tôi đang dùng Fedora Linux phiên bản 14 và 15)
+Bài này chỉ tóm tắt và chi chú các kinh nghiệm trong quá trình sử dụng TrueCrypt trên Windows và Linux (tôi đang dùng Fedora Linux phiên bản 14 và 15).
