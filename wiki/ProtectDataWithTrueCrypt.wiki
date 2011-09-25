@@ -1,0 +1,10 @@
+#summary Bảo vệ dữ liệu trên máy tính xách tay, trên ổ đĩa di động.
+
+= Giới thiệu =
+
+Tôi thường làm việc trên các hệ điều hành khác nhau: Windows, Linux (Fedora), dữ liệu nhạy cảm thường được lưu trên USB, Laptop. Làm thể nào để bảo vệ chúng?
+
+
+= Chi tiết =
+
+Chương trình [http://www.truecrypt.org TrueCrypt] có phiên bản trên Windows và Linux (tôi dùng Fedora Linux phiên bản 14 và 15) đề có
