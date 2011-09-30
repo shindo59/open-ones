@@ -28,7 +28,10 @@ III) Start eclipse by execute "D:\jPackages\eclipse-jee-helios-SR2-win32-OpenOne
 - Open Preferences by going to Window > Preferences
 - Select node "Google > App Engine", click Add button. Then browse to folder "D:\jPackages\appengine-java-sdk-1.4.3". Click OK twice.
 
-*B. Run the OGate project
+*B. Check-out OGate's source code.
+https://open-ones.googlecode.com/svn/trunk/OGate/SourceCode
+
+*C. Run the OGate project
 
 I) Import the OGate project into Eclipse
 Step 1: Going to menu File > Import. The dialog Import is displayed.
