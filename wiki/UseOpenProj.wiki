@@ -24,6 +24,6 @@ Xem lại các files của gói openproj bằng lệnh:
 ||rpm -ql openproj||
 
 Tìm file có đuôi .desktop (vd: /usr/share/applications/openproj.desktop).
-Bạn chép file này vào thư mục Desktop của user. Vd dùng lệnh sau:
+Bạn chép file này vào thư mục Desktop của user. Vd dùng lệnh sau trong cửa sồ console của user:
 
 ||cp /usr/share/applications/openproj.desktop ~/Desktop||
