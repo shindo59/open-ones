@@ -2,7 +2,7 @@
 
 = Giới thiệu =
 
-Tôi thường làm việc trên các hệ điều hành khác nhau: Windows, Linux (Fedora), dữ liệu nhạy cảm thường được lưu trên USB, Laptop. Làm thể nào để bảo vệ chúng?
+Tôi thường làm việc trên các hệ điều hành khác nhau: Windows, Linux (Fedora), dữ liệu nhạy cảm thường được lưu trên USB, Laptop. Làm thế nào để bảo vệ chúng?
 
 
 = Chi tiết =
@@ -12,7 +12,7 @@ Tôi thường làm việc trên các hệ điều hành khác nhau: Windows, Li
   * http://blogphanmem.com/download-truecrypt-bao-ve-du-lieu-o-flash-mot-cach-toan-dien/
   * http://www.spacesoft.vn/Ph%E1%BA%A7nm%E1%BB%81m/TrueCrypt/tabid/75/language/en-US/Default.aspx
 
-Bài này chỉ tóm tắt và chi chú các kinh nghiệm trong quá trình sử dụng TrueCrypt trên Windows và Linux (tôi đang dùng Fedora Linux phiên bản 14 và 15).
+Bài này chỉ tóm tắt và ghi chú các kinh nghiệm trong quá trình sử dụng TrueCrypt trên Windows và Linux (tôi đang dùng Fedora Linux phiên bản 14 và 15).
 
 ===Dùng TrueCrypt trong Fedora 14/15===
 Nếu bạn đăng nhập vào Fedora bằng tài khoản root để sử dụng thì không có vấn đề gì. Tuy nhiên, điều này hiếm khi xảy ra mà thường là chúng ta dùng một tài khoản thường để làm việc. Để thuận tiện trong quá trình sử dụng TrueCrypt thì có một số gợi ý sau:
