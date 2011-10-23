@@ -45,7 +45,9 @@ Right click on OGate project in the Project Explorer of the eclipse. Select Run 
 Follow the result of compilation in window "Console".
 Then use browser to open URL: htt://localhost:8888/
 
-In case the eclipse could not compile the source code of OGate. Please check the Java Build Path of the project.
+In case the eclipse could not compile the source code of OGate. Please check and update the Java Build Path of the project.
+
+Login by Admin email which is declared at "/OGate/resources/conf.properties" (you should modified it) to maintain tabs and its content.
 
 Tips:
 
