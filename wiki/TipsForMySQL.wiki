@@ -1,0 +1,23 @@
+#summary Useful command for MySQL.
+#labels MySQL,Command,Script
+
+= Introduction =
+
+MySQL command for beginer.
+
+
+= Details =
+
+* 1) Create database *
+
+create database dbname default character set utf8;
+
+GRANT ALL PRIVILEDGEs ON dbname.`*` TO dbnameadmin@localhost IDENTIFIED BY 'dbnamepassword'; 
+
+Notes:
+
+- dbname: Your new database name
+
+- dbnameadmin: account
+
+- dbnamepassword: password
