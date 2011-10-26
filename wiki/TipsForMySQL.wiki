@@ -12,12 +12,12 @@ MySQL command for beginer.
 
 create database dbname default character set utf8;
 
-GRANT ALL PRIVILEDGEs ON dbname.`*` TO dbnameadmin@localhost IDENTIFIED BY 'dbnamepassword'; 
+GRANT ALL PRIVILEDGEs ON dbname.`*` TO dbaccount@localhost IDENTIFIED BY 'dbpassword'; 
 
 Notes:
 
 - dbname: Your new database name
 
-- dbnameadmin: account
+- dbaccount: account of the database with ALL PRIVILEDGEs
 
-- dbnamepassword: password
+- dbpassword: password of the account
