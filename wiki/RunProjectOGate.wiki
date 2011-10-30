@@ -7,20 +7,10 @@ This text helps you run a Google App with eclipse.
 
 = Details =
 *A. Prepare the eclipse and Google App Engine SDK*
-Download:
 
+I) Prepare Eclipse IDE:
 
-1) http://www.mediafire.com/file/zta0lvo4toudot4/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.001
-
-
-2) http://www.mediafire.com/file/6n9rrczcuedvca0/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.002
-
-
-3) http://www.mediafire.com/file/915b728bby7vlub/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.003
-
-4) http://www.mediafire.com/file/ngdol8ohm2t7bnz/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.004
-
-Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.8. This folder is called $ECLIPSE_HOME)
+Refer http://code.google.com/p/open-ones/wiki/PrepareIDEEclipse
 
 II) Download Google App Engine SDK for Java version at:
 http://googleappengine.googlecode.com/files/appengine-java-sdk-1.4.3.zip
