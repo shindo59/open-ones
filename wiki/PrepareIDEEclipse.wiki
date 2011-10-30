@@ -1,4 +1,5 @@
 #summary Prepare IDE Eclipse to develop Web Application
+#labels Open-Ones,Eclipse,Plugins
 
 = Introduction =
 
@@ -8,7 +9,7 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 = Details =
 === 1. Download and install JDK 1.6 ===
 === 2. Download customized Eclipse JEE ===
-Links:
+*Links for Window:*
 
 1) http://www.mediafire.com/file/zta0lvo4toudot4/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.001
 
@@ -19,6 +20,20 @@ Links:
 3) http://www.mediafire.com/file/915b728bby7vlub/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.003
 
 4) http://www.mediafire.com/file/ngdol8ohm2t7bnz/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.004
+
+*Links for Linux:*
+
+1) http://www.mediafire.com/file/21t0dc56hocozn9/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.001
+
+
+2) http://www.mediafire.com/file/hlpjx4e58fbtg83/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.002
+
+
+3) http://www.mediafire.com/file/fab3hv7x565a16m/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.003
+
+4) http://www.mediafire.com/file/b275isbebz2eul4/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.004
+
+5) http://www.mediafire.com/file/8o6ggqhpk8hubrp/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.005
 
 Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.8. This folder is called $ECLIPSE_HOME)
 
