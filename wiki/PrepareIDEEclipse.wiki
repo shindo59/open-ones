@@ -21,23 +21,36 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 
 4) http://www.mediafire.com/file/ngdol8ohm2t7bnz/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.004
 
-*Links for Linux:*
-
-1) http://www.mediafire.com/file/21t0dc56hocozn9/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.001
-
-
-2) http://www.mediafire.com/file/hlpjx4e58fbtg83/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.002
-
-
-3) http://www.mediafire.com/file/fab3hv7x565a16m/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.003
-
-4) http://www.mediafire.com/file/b275isbebz2eul4/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.004
-
-5) http://www.mediafire.com/file/8o6ggqhpk8hubrp/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.zip.005
-
 Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.8. This folder is called $ECLIPSE_HOME)
 
 You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
+
+*Links for Linux:*
+
+1) 
+
+
+2) 
+
+
+3) 
+
+4) 
+
+5) 
+
+Join these file by command:
+
+|| cat eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz`*` > eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz ||
+
+Uncompress file eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz the by command:
+
+|| tar -zxvf eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz --directory ~/jPackages ||
+
+~: Home directory of current user
+If folder ~/jPackages has not existed, create it by command
+
+|| mkdir ~/jPackages ||
 
 === 3. Configure JDK for eclipse ===
 Default, the eclipse uses JRE. Now, you re-configure the eclipse to use JDK.
