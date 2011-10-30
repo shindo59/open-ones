@@ -7,9 +7,9 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 
 
 = Details =
-=== 1. Download and install JDK 1.6 ===
-=== 2. Download customized Eclipse JEE ===
-*Links for Window:*
+== 1. Download and install JDK 1.6 ==
+== 2. Download customized Eclipse JEE ==
+=== 2.1 For Window ===
 
 1) http://www.mediafire.com/file/zta0lvo4toudot4/eclipse-jee-helios-SR2-win32-OpenOnes-0.8.zip.001
 
@@ -25,17 +25,17 @@ Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assump
 
 You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
 
-*Links for Linux:*
+=== 2.1 For Linux (I'm using Fedora 15 + KDE) ===
 
 1) 
 
 
-2) 
+2) http://www.mediafire.com/?uv5lgqkq4rza7we
 
 
-3) 
+3) http://www.mediafire.com/?la1qw0f66c6wcff
 
-4) 
+4) http://www.mediafire.com/?4ektwvvv5eo3din
 
 5) 
 
@@ -51,6 +51,11 @@ Uncompress file eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz the by com
 If folder ~/jPackages has not existed, create it by command
 
 || mkdir ~/jPackages ||
+
+You should create a shortcut in the Desktop by copy file /home/thachln/jPackage/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8/Eclipse.desktop into your Desktop (for KDE, it is folder ~/Desktop)
+
+Setting the "Command" and "Work path" to match with your folder by right click on shortcut "Eclipse" in the Desktop, select Properties, choose tab Application.
+
 
 === 3. Configure JDK for eclipse ===
 Default, the eclipse uses JRE. Now, you re-configure the eclipse to use JDK.
