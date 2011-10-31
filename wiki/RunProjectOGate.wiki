@@ -26,10 +26,13 @@ https://open-ones.googlecode.com/svn/trunk/OGate/SourceCode
 *C. Run the OGate project
 
 I) Import the OGate project into Eclipse
+
 Step 1: Going to menu File > Import. The dialog Import is displayed.
+
 Step 2: Select node General > Existing Projects into Workspace. Click on Next, Browse to folder of OGate Source.
 
 II)Run the OGate project
+
 Right click on OGate project in the Project Explorer of the eclipse. Select Run As > Web Application.
 
 Follow the result of compilation in window "Console".
@@ -42,4 +45,5 @@ Login by Admin email which is declared at "/OGate/resources/conf.properties" (yo
 Tips:
 
 + Configure JDK is the default JVM instead of JRE.
+
 + If your GAE SDK's version is different from files .../OGate/war/WEB-INF/lib/appengine-api-1.0-sdk-x.y.z.jar, appengine-api-labs-x.y.z.jar, please replace these files by your SDK's ones.
