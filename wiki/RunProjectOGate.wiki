@@ -12,8 +12,8 @@ I) Prepare Eclipse IDE:
 
 Refer http://code.google.com/p/open-ones/wiki/PrepareIDEEclipse
 
-II) Download Google App Engine SDK for Java version at:
-http://googleappengine.googlecode.com/files/appengine-java-sdk-1.4.3.zip
+II) Download Google App Engine SDK 1.5.4 or later for Java version at:
+http://code.google.com/p/googleappengine/downloads/list
 Then, unzip it into D:\jPackages
 
 III) Start eclipse by execute "D:\jPackages\eclipse-jee-helios-SR2-win32-OpenOnes-0.8\eclipse\eclipse.exe".
@@ -42,3 +42,4 @@ Login by Admin email which is declared at "/OGate/resources/conf.properties" (yo
 Tips:
 
 + Configure JDK is the default JVM instead of JRE.
++ If your GAE SDK's version is different from files .../OGate/war/WEB-INF/lib/appengine-api-1.0-sdk-x.y.z.jar, appengine-api-labs-x.y.z.jar, please replace these files by your SDK's ones.
