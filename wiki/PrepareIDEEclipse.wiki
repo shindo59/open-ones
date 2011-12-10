@@ -15,7 +15,8 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 
 or at Mediafire: http://mediafire.com/?3euzew8c9i0xxc7
 
-2) Download eclipse-jee-indigo-SR1-win32-OOG-0.1.zip.002 at FShare: http://www.fshare.vn/file/IWJEA3Y0QW or Mediafire http://mediafire.com/?1ggyf6tu3yhecw2
+2) Download eclipse-jee-indigo-SR1-win32-OOG-0.1.zip.002 at FShare: http://www.fshare.vn/file/IWJEA3Y0QW
+or at Mediafire: http://mediafire.com/?1ggyf6tu3yhecw2
 
 Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/eclipse-jee-helios-SR2-win32-OpenOnes-0.8. This folder is called $ECLIPSE_HOME)
 
