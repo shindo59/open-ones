@@ -21,34 +21,28 @@ You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
 
 === 2.1 For Linux (I'm using Fedora 15 + KDE) ===
 
-1) http://www.mediafire.com/file/93869lrx86o0fgx/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gzaa
+1) http://www.mediafire.com/file/n8f8rbm77rh49tr/eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.tar.gzaa
 
 
-2) http://www.mediafire.com/file/uv5lgqkq4rza7we/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gzab
-
-
-3) http://www.mediafire.com/file/la1qw0f66c6wcff/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gzac
-
-4) http://www.mediafire.com/file/4ektwvvv5eo3din/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gzad
-
-5) http://www.mediafire.com/file/kgxrncee0hw9pcn/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gzae
+2) http://www.mediafire.com/file/qbqya67x70kjl2b/eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.tar.gzab
 
 Join these files by command:
 
-|| cat eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz`*` > eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz ||
+|| cat eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.tar.gz`*` > eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.gz ||
 
-Uncompress file eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz the by command:
+Uncompress file eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.tar.gz the by command:
 
-|| tar -zxvf eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8.tar.gz --directory ~/jPackages ||
+|| tar -zxvf eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2.tar.gz --directory ~/jPackages ||
+
+To re-use the configuration in folder "~/jPackages/eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2/workspace", you must start the eclipse with working folder is ""~/jPackages/eclipse-jee-indigo-SR1-linux-gtk-OOG-0.2/eclipse".
+
+_Note:_
 
 ~: Home directory of current user
 If folder ~/jPackages has not existed, create it by command
 
 || mkdir ~/jPackages ||
 
-You should create a shortcut in the Desktop by copy file /home/thachln/jPackage/eclipse-jee-helios-SR2-linux-gtk-open-ones-0.8/Eclipse.desktop into your Desktop (for KDE, it is folder ~/Desktop)
-
-Setting the "Command" and "Work path" to match with your folder by right click on shortcut "Eclipse" in the Desktop, select Properties, choose tab Application.
 
 
 === 3. Configure JDK for eclipse ===
