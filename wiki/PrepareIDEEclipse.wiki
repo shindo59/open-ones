@@ -11,11 +11,11 @@ This text helps you prepare an IDE Eclipse to develop Web Application, Google Ap
 == 2. Download customized Eclipse JEE ==
 === 2.1 For Window ===
 
-1) Download eclipse-jee-indigo-SR1-win32-OOG-0.2.zip.001 at FShare: http://www.fshare.vn/file/L1QBTHDT0P
+1) Download eclipse-jee-indigo-SR1-win32-OOG-0.3.zip.001 at: http://www.mediafire.com/file/n2tv1rwy59r6mcw/eclipse-jee-indigo-SR1-win32-OOG-0.3.zip.001
 
-2) Download eclipse-jee-indigo-SR1-win32-OOG-0.2.zip.002 at FShare: http://www.fshare.vn/file/43Y9BQOD6C
+2) Download eclipse-jee-indigo-SR1-win32-OOG-0.3.zip.002 at: http://www.mediafire.com/file/9c78qg86gslp4cb/eclipse-jee-indigo-SR1-win32-OOG-0.3.zip.002
 
-Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/jPackages/eclipse-jee-indigo-SR1-win32-OOG-0.2. This folder is called $ECLIPSE_HOME)
+Use [http://7zip.org 7zip ] to combine and un-compress three above files (Assumption: you un-compress into D:/jPackages/eclipse-jee-indigo-SR1-win32-OOG-0.3. This folder is called $ECLIPSE_HOME)
 
 You can try to run the eclipse by execute $ECLIPSE_HOME/eclipse/eclipse.exe.
 
