@@ -28,7 +28,21 @@ Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết c
 *Xem tài liệu hướng dẫn tài Oracle 10g Express* tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
 
 ===Bước 2) Triển khai jBoss và bộ công cụ FMS===
+Phần hướng dẫn dưới đây sẽ giúp bạn cài đặt các gói (packages) của FMS vào jBoss. Bạn có thể download file này để dùng ngay mà không cần mất thời gian: http://open-ones.googlecode.com/files/jboss-5.0.1.GA-fms.zip.
+Trong đó đã chuẩn bị đầy đủ các gói và cấu hình CSDL với Oracle:
+
+Database: XE
+
+Username: fmsuser
+
+Password: fmsuser
+
+Nếu bước 1 bạn đã cài đặt CSDL, tạo user theo đúng cấu hình trên và thực hiện các script để tạo dữ liệu thành công thì có thể bung gói zip này ra và khởi động jBoss ngay. Chờ jBoss khởi động xong thì dùng trình duyệt vào địa chỉ http://localhost:8080/FsoftInsight, đăng nhập bằng tài khoản sysadmin/sysadmin để khám phá FMS.
+
+
+===Tự triển khai bộ công cụ FMS vào jBoss===
 Nếu máy bạn chưa cài Java thì hãy tham khảo bài 1 (Exercise 1) trong tài liệu [http://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4vjYnf6j5_4ZDMzY2NhM2MtMDBlMy00OWE1LWE4MDUtNGNkMWJlYzczMjAy&hl=en_US Hands-on Lab: Install JDK and Tomcat].
+
 
 Tải bản jBoss 5.1.0 tại http://www.jboss.org/jbossas/downloads
 
