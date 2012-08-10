@@ -50,12 +50,18 @@ Các nội dung khác trong tài liệu "Install.pdf" tương đối rõ ràng. 
 Ghi chú: Bạn nên đổi tên file DMS.war thành chữ thường dms.war.
 
 Để gởi động và dùng jBoss, bạn nên tạo 2 batch script trong thư mục C:\jPackages\jboss-5.1.0.GA
+
 ---Script để khởi động jBoss---
+
 cd bin
+
 run.bat -b 0.0.0.0
 
+
 ---Script để tắt jBoss---
+
 cd bin
+
 shutdown.bat -S
 
 ===Tham khảo===
