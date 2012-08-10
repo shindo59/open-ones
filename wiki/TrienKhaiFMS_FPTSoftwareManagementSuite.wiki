@@ -23,7 +23,7 @@ Sau đó bạn lấy bộ script đã được chỉnh sửa tại: http://open-
 
 Bạn xem file "README.txt" trong bộ sql chình sửa ở trên để biết cách tạo CSDL.
 
-Đối với các dự án nhỏ, đặc biệt các dự án đào tạo (Training) thì bản Oracle Express là phù hợp (Xem các giới hạn của phiên bản Express tại http://download.oracle.com/docs/cd/B25329_01/doc/install.102/b25143/toc.htm#BABIECJA).
+Đối với các dự án công ty vừa và nhỏ, đặc biệt các trung tâm dự án đào tạo thì bản Oracle Express là phù hợp (Xem các giới hạn của phiên bản Express tại http://download.oracle.com/docs/cd/B25329_01/doc/install.102/b25143/toc.htm#BABIECJA).
 
 *Xem tài liệu hướng dẫn tài Oracle 10g Express* tại [http://code.google.com/p/open-ones/wiki/CaiDatOracleExpress đây].
 
@@ -59,6 +59,11 @@ cd bin
 shutdown.bat -S
 
 ===Tham khảo===
-Bạn nào mong muốn dùng thử ngay tool FMS thì có thể liên hệ nhóm để nhận CD chứa máy ảo VMWare đã cài đặt sẵn Oracle 10g Express, jBoss.
+Bạn nào mong muốn dùng thử ngay tool FMS thì có thể liên hệ nhóm để nhận CD chứa máy ảo VMWare đã cài đặt sẵn CentOS/RedHat + Oracle 10g Express, jBoss + FMS.
+
+Theo dõi các phiên bản nâng cấp, sửa lỗi tại http://project360.googlecode.com.
+
+Dịch vụ hỗ trợ triển khai, đào tạo xem tại http://open-ones.com.
 
 Liên hệ: openonesadm@gmail.com
+ĐT: 0908 550 642
